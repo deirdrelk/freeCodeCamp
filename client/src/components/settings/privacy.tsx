@@ -163,6 +163,7 @@ function PrivacySettings({
           block={true}
           bsSize='lg'
           bsStyle='primary'
+          data-cy='download-data'
           download={`${user.username}.json`}
           href={`data:text/json;charset=utf-8,${encodeURIComponent(
             JSON.stringify(user)
